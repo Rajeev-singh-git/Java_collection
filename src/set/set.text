@@ -28,7 +28,7 @@ Underlying data Structure : HashTable
 .) Implements Serializable and Cloneable Interface.
 
 
-1.) LinkedHashSet
+i.) LinkedHashSet
 
 Child class of HashSet
 
@@ -39,4 +39,15 @@ Insertion order is preserved in LinkedHashSet
 Underlying data structure = Combination of linked list and hashTable
 
 
+
+2.) SortedSet
+
+.) all the properties of set are by default property of sorted set.
+
+Difference
+
+ Insertion is done based on some sorting order.
+
+Sorted set interface has sub-interface Navigable set
+and implementation class "TreeSet"
 
