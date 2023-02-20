@@ -28,6 +28,15 @@ Underlying data Structure : HashTable
 .) Implements Serializable and Cloneable Interface.
 
 
+1.) LinkedHashSet
+
+Child class of HashSet
+
+Introduced in v 1.4
+
+Insertion order is preserved in LinkedHashSet
+
+Underlying data structure = Combination of linked list and hashTable
 
 
 

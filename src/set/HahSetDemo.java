@@ -16,7 +16,7 @@ public class HahSetDemo {
         HashSet hs3 = new HashSet(100, .80f);  //load factor changed to 80 %
 
         ArrayList l = new ArrayList();
-        HashSet hs4 = new HashSet(l);          // we will get equivalent hashset
+        HashSet hs4 = new HashSet(l);          // we will get equivalent hashset for arraylist
 
     }
 
