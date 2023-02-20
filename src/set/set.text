@@ -43,6 +43,8 @@ Underlying data structure = Combination of linked list and hashTable
 2.) SortedSet
 
 .) all the properties of set are by default property of sorted set.
+.) Only homogenous object can be stored
+
 
 Difference
 
@@ -57,3 +59,9 @@ Child interface of Navigable set
 Contains method related to navigation.
 
 
+Tree Set
+
+Underlying Data Structure : Balanced Tree
+
+Object which we can insert in Treeset must
+implement comparable interface.
