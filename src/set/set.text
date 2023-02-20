@@ -51,3 +51,9 @@ Difference
 Sorted set interface has sub-interface Navigable set
 and implementation class "TreeSet"
 
+i) Navigable Set
+
+Child interface of Navigable set
+Contains method related to navigation.
+
+
