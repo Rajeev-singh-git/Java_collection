@@ -1,0 +1,44 @@
+                           Map
+
+Represents a mapping between a key and value.
+
+Keys and values are object and can be of any type.
+
+Duplicate keys are not allowed, Values can be duplicated
+
+Collection of entry-object.
+
+Each key-value pair is called entry.
+
+
+
+
+                            Hashing
+
+Hash function generates unique code for the object.
+
+Object class has two methods
+
+i) hashcode()
+
+ii) equals()
+
+
+If two object are equal according to equals() then they must have
+same hashcode value but reverse is not always true.
+
+There could be same hashcode for two unequal object.
+
+
+
+                         HashMap
+
+Insertion order is not preserved.
+Duplicate keys are not allowed.
+Allows null as key (Only once). Value can be null more than once.
+Heterogeneous elements are allowed as key and value both.
+Implements Serializable   and Cloneable interface.
+Extends as abstract class AbstractMap.
+Best  choice for search operation.
+
+
