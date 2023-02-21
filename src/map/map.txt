@@ -73,3 +73,11 @@ GC dominates WeakHashMap.
 
 WeakHashMap does not Implement Serializable   and Cloneable interface.
 
+
+
+             NavigableMap Interface
+
+. Sub interface of SortedMap
+. Contains methods related to Navigation functionality.
+. Both SortedMap and NavigableMap have a same implementation
+  class as TreeMap.
