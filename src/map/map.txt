@@ -56,4 +56,20 @@ while linkedHash Map use ".equal()" method for comparison.
 So, with Identity Hash map, values can be same but reference must be difference.
 
 
+                    WeakHashMap
+
+
+Object without any reference is always eligible for Garbage Collection.
+
+But, In Hashmap, if object is specified as key in Hashmap, though it
+doesn't have any reference. It is not eligible for GC.
+
+Hashmap dominates GC.
+
+In case of WeakHashmap, if object doesn't have any reference
+even though it is specified as key. It will be eligible for GC.
+
+GC dominates WeakHashMap.
+
+WeakHashMap does not Implement Serializable   and Cloneable interface.
 
