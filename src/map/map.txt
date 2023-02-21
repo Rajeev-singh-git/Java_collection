@@ -42,3 +42,18 @@ Extends as abstract class AbstractMap.
 Best  choice for search operation.
 
 
+                     LinkedHash Map
+
+Underlying Data Structure = HashTable + Linkedlist
+Insertion order is preserved.
+Used for developing cache based application.
+
+                    Identity Hash Map
+
+Identity hash map internally use "==" for comparison,
+while linkedHash Map use ".equal()" method for comparison.
+
+So, with Identity Hash map, values can be same but reference must be difference.
+
+
+
