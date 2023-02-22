@@ -1,0 +1,21 @@
+                    Need of Concurrent collection
+
+If one thread is working on collection object and other thread comes
+and modifies data, there may be problem of data inconsistency.
+
+Data inconsistency problem
+
+To overcome data inconsistency problem, java use "SYNCHRONIZED"
+blocks or methods, so that only one thread can use that block
+or object at only one time.
+
+To overcome performance problem in old java collection way of synchronization
+java introduced Concurrent collection.
+
+                       ConcurrentModificationException
+
+If one thread is iterating over collection and at the same time
+if another thread is modifying same collection object, there is possibility
+the programme will throw ConcurrentModificationException.
+
+
