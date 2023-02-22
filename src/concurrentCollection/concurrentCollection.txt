@@ -33,6 +33,56 @@ All the method present in map and Concurrent Map are also present in
 ConcurrentHashMap.
 
 
+               Internal implementation of ConcurrentHashMap
+
+ConcurrentHashMap only locks a portion of the collection on update.
+
+ConcurrentHashMap is better than Hashtable and synchronized Map
+as well.
+
+ConcurrentHashMap is fail safe does not throw ConcurrentModificationException.
+
+null is not allowed as a key or value in ConcurrentHashMap.
+
+Level of concurrency can be chosen by the programmer on a
+ConcurrentHashMap while initializing it.
+
+16 threads can operate simultaneously on any Concurrent Object. We can
+change this default number, but it is not recommended as it may have
+performance impact.
+
+
+
+                Difference between HahMap, HashTable and ConcurrentHashMap
+
+HahMap
+
+Not thread Safe --in multithreading environment this data structure can lead to data
+inconsistency problem.
+
+hashTable
+
+Thread Safe but poor in performance as the full object get
+locked in read/write. Only one thread is allowed to operate.
+
+ConcurrentHashMap
+
+Thread Safe and better in performance as no lock while
+read and segment is locked while write and segment is
+locked while write not full object.
+
+
+
+                         ConcurrentHashMap in Multi-threading
+
+
+Fail Safe : ConCurrentHashMap is Fail Safe, internal mechanism of
+            ConCurrentHashMap supports iteration and modification
+            simultaneously.
+
+Fail Fast : HashMap is Fail Fast and throws Concurrent modification
+            exception to prevent data inconsistency and let user know
+            other thread is modifying while iteration.
 
 
 
