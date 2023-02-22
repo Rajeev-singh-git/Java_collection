@@ -75,9 +75,24 @@ WeakHashMap does not Implement Serializable   and Cloneable interface.
 
 
 
-             NavigableMap Interface
+                 NavigableMap Interface
 
 . Sub interface of SortedMap
 . Contains methods related to Navigation functionality.
 . Both SortedMap and NavigableMap have a same implementation
   class as TreeMap.
+
+
+                     TreeMap
+
+Insertion order is not preserved.
+
+Duplicate keys are not allowed. (Values can be duplicate)
+
+Default Sorting order : Keys of sorting order should be
+homogeneous and comparable.
+
+Customized Order : Keys need not be homogeneous and comparable.
+(Values can be homogeneous and heterogeneous in both cases).
+
+Null Key is not allowed, null values are allowed.
