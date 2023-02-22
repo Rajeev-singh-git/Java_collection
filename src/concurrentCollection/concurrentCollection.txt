@@ -99,11 +99,28 @@ created and update operation will take place on cloned copy. If there
 are 100 update operation 100 cloned copy will be created. Later,
 these objects will get synced with cloned object by JVM.
 
+Read operation is done on main object, Write operation on Cloned Object.
+
 Iterator of arraylist can perform remove operation but Iterator of
 CopyOnWriteArrayList can't perform remove operation as there may be problem
 with sync.
 
+                        CopyOnWriteArraySet
 
+Thread Safe
+
+If multiple threads are operating simultaneously then for Read
+there is no locking. Every thread can read simultaneously.
+
+Whenever there is update or write operation, a cloned copy will get
+created and update operation will take place on cloned copy. If there
+are 100 update operation 100 cloned copy will be created. Later,
+these objects will get synced with cloned object by JVM.
+
+Read operation is done on main object, Write operation on Cloned Object.
+
+
+It holds only unique objects.
 
 
 
