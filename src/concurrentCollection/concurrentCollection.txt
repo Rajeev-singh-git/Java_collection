@@ -87,3 +87,25 @@ Fail Fast : HashMap is Fail Fast and throws Concurrent modification
 
 
 
+                    CopyOnWriteArrayList
+
+Thread Safe
+
+If multiple threads are operating simultaneously then for Read
+there is no locking. Every thread can read simultaneously.
+
+Whenever there is update or write operation, a cloned copy will get
+created and update operation will take place on cloned copy. If there
+are 100 update operation 100 cloned copy will be created. Later,
+these objects will get synced with cloned object by JVM.
+
+Iterator of arraylist can perform remove operation but Iterator of
+CopyOnWriteArrayList can't perform remove operation as there may be problem
+with sync.
+
+
+
+
+
+
+
