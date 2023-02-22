@@ -19,3 +19,21 @@ if another thread is modifying same collection object, there is possibility
 the programme will throw ConcurrentModificationException.
 
 
+               How ConCurrent Collection overcame  ConcurrentModificationException ?
+
+Old collection was blocking the whole object, new Collection
+improved algorithm and DSA in big way by locking only a
+particular segment of collection object rather than locking entire object.
+
+
+                ConcurrentHashMap
+
+Concurrent Hashmap implements Concurrent map interface.
+All the method present in map and Concurrent Map are also present in
+ConcurrentHashMap.
+
+
+
+
+
+
