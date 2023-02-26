@@ -9,6 +9,9 @@ public class Demo {
         Data d2= new Data(10);
         System.out.println(d2.toString());
 
+        IData<String> d3 = new Data<>("We have implemented generic interface");
+        System.out.println(d3.toString());
+
     }
 
 }
